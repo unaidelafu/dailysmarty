@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Front End Search Implementation</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+        <style>
+            body {
+                font-family: 'Lato', sans-serif;
+                background-color: white;
+            }
+        
+            p, li {
+                font-family: 'PT Serif', serif;
+            }
+            .container{
+                display: flex;
+                justify-content: center;
+            } 
+            .content-wrapper{
+                width: 600px;
+                align-items: center;
+            }
+            .head-image-wrapper{
+                text-align: center;
+                margin-top: 70px;
+            }
+            .head-image-wrapper img{
+                width: 60px;
+            }
+            @media (max-width: 48em){
+                /*
+                .style-details, .dos-donts-wrappers{
+                    grid-template-columns: 1fr;
+                    grid-gap: 50px;
+                }
+                .style-details-text{
+                    text-align: center;
+                }
+                */
+            } 
+        </style>
+    </head>
+    <body>
+        <div class="container">
+             <div class="content-wrapper">
+                <!--
+                <div class="text-test-wrapper">
+                    Hola, estamos aqui reunidos en el nombre del padre del hijo y del espiritu santo. Hoy mismo nos hemos enterado de la noticia de que nuestro compañero Alfonso ha sido detenido por la guardia civil española por estafar a 5 familias de nivel alto con las hostias sagradas. Ha dado un par de hostia a cada mienbro de cada familia, y ha resultado gratificante y erotico al mismo tiempo.
+                </div>
+                -->
+                <div class="head-image-wrapper">
+                    <img src="images/ds_circle_logo.png" alt="">
+                </div>
+                <div class="search-wrapper">
+                    <div class="search-bar-wrapper">
+                        <input type="text" id="searchDailySmarty" placeholder="Search DailySmarty">
+                        <label for="searchDailySmarty">Search DailySmarty</label>
+                    </div>
+                    <div class="search-indication">
+                        <p>Press return to search</p>
+                    </div>
+                </div>
+                <div class="recent-posts-wrapper">
+
+                </div>
+             </div> 
+        </div>
+    </body>
+</html>
